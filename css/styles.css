@@ -1,8 +1,11 @@
-header {
+body {
     font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
     display: flex;
-    background-color: #ebebeb;
-    position: static;
+    background-color: #FFFEFF;
+    position: relative;
     height: 550px;
 }
 
@@ -12,9 +15,7 @@ header {
     margin-left: 0.5em;
     margin-top: 0.3em;
     color: #ae9b8d;
-    left: 0;
     transition: left 0.5s ease-out;
-    position: fixed;
 }
 
 #title.menu-open {
@@ -31,7 +32,7 @@ header {
     transition: transform 0.2s ease-out;
     margin-left: 150px;
     margin-top: -40px;
-    text-shadow: -1px 0 #ebebeb, 0 1px #ebebeb, 1px 0 #ebebeb, 0 -1px #ebebeb;
+    text-shadow: -1px 0 #FFFEFF, 0 1px #FFFEFF, 1px 0 #FFFEFF, 0 -1px #FFFEFF;
 }
 
 @keyframes slide-in-left {
@@ -46,11 +47,11 @@ header {
 
 .header_husaria {
     animation: slide-in-right 1s ease-in-out;
-    padding-left: 1000px;
+    padding-left: 200px;
     margin-top: -80px;
     left: 0;
     transition: left 0.5s ease-out;
-    position: fixed;
+    position: relative;
     z-index: 1;
 }
 
@@ -74,8 +75,9 @@ header {
     align-items: center;
     cursor: pointer;
     z-index: 1;
-    position: absolute;
-    right: 15px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 10px;
 }
 
 .menu-icon div {
@@ -92,7 +94,7 @@ header {
     transform: translate(-50%, -50%);
     font-size: 42px;
     font-weight: bold;
-    color: #ebebeb;
+    color: #FFFEFF;
 }
 
 .menu {
@@ -107,15 +109,121 @@ header {
     height: 550px;
 }
 
-.menu li, a {
+.menu li,
+a {
     list-style: none;
     text-decoration: none;
-    color: #ebebeb;
+    color: #FFFEFF;
     margin: 30px 0;
     font-size: 30px
 }
 
-.menu ul
-{
+.menu ul {
     margin-top: 150px;
+}
+
+.persons {
+    position: relative;
+    text-align: center;
+    border: 100px;
+}
+
+#person {
+    background-color: #EBEBEB;
+    height: 400px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+#person:nth-child(even) {
+    background-color: #FFFEFF;
+}
+
+#number-box {
+    border-bottom: 400px solid #EB2F1E;
+    border-left: 0 solid transparent;
+    border-right: 140px solid transparent;
+    border-top: 0 solid transparent;
+    width: 400px;
+    float: left;
+}
+
+#person:nth-child(even) #number-box{
+    border-bottom: 400px solid #2E393A;
+    border-left: 140px solid transparent;
+    border-right: 0 solid transparent;
+    border-top: 0 solid transparent;
+    float: right
+}
+
+#person:nth-child(3) #number-box {
+    border-bottom: 400px solid #AE9B8D;
+}
+
+#nr,
+#number {
+    position: absolute;
+    font-weight: 600;
+    color: #EBEBEB;
+    z-index: 1;
+}
+
+#nr {
+    top: 295px;
+    left: 80px;
+    font-size: 40px;
+}
+
+#number {
+    top: 25px;
+    left: 200px;
+    font-size: 400px;
+}
+
+#person:nth-child(even) #number-box #number {
+    top: 25px;
+    right: -1300px;
+    font-size: 400px;
+}
+
+#person:nth-child(even) #number-box #nr {
+    top: 295px;
+    right: -1100px;
+    font-size: 40px;
+}
+
+#name {
+    font-weight: 700;
+    font-size: 90px;
+    position: relative;
+    top: 110px;
+    left: -200px;
+}
+
+#person:nth-child(even) #name {
+    left: 350px;
+}
+
+.pers-photo {
+    position: relative;
+    left: 400px;
+    top: -120px;
+}
+
+#person:nth-child(even) .pers-photo {
+    left: -450px;
+    transform: scale(0.5);
+    top:-350px;
+    left: -380px;
+}
+
+#person:nth-child(1) .pers-photo {
+    transform: scale(1.2);
+}
+
+#person:nth-child(3) .pers-photo {
+    transform: scale(0.8);
+    top: -180px;
+    left: 370px;
 }

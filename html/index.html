@@ -34,8 +34,34 @@
                 <li><a href="#">Podstrona 5</a></li>
             </ul>
         </nav>
-
     </header>
+
+    <div class="persons">
+        <div id="person">
+            <div id="number-box">
+                <div id="nr">NR</div>
+                <div id="number">1</div>
+            </div>
+            <div id="name">MARIUSZ<br>PUDZIANOWSKI</div>
+            <img src="../img/pudzian.png" class="pers-photo">
+        </div>
+        <div id="person">
+            <div id="number-box">
+                <div id="nr">NR</div>
+                <div id="number">2</div>
+            </div>
+            <div id="name">JAN PAWEŁ<br>II</div>
+            <img src="../img/papiez.png" class="pers-photo">
+        </div>
+        <div id="person">
+            <div id="number-box">
+                <div id="nr">NR</div>
+                <div id="number">3</div>
+            </div>
+            <div id="name">ADAM<br>MAŁYSZ</div>
+            <img src="../img/malysz.png" class="pers-photo">
+        </div>
+    </div>
 
     <script>
         const menuIcon = document.querySelector('.menu-icon');
@@ -48,13 +74,13 @@
                 menu.style.display = 'block';
                 menuIconSpan.style.color = '#2e393a';
                 for (const div of menuIconDivs) {
-                    div.style.background = '#ebebeb';
+                    div.style.background = '#FFFEFF';
                 }
                 document.querySelector('.header_husaria').classList.add('menu-open');
                 document.querySelector('#title').classList.add('menu-open');
             } else {
                 menu.style.display = 'none';
-                menuIconSpan.style.color = '#ebebeb';
+                menuIconSpan.style.color = '#FFFEFF';
                 for (const div of menuIconDivs) {
                     div.style.background = '#2e393a';
                 }
@@ -65,5 +91,13 @@
 
     </script>
 </body>
+
+<!--
+#EBEBEB
+#AE9B8D
+#2E393A
+#EB2F1E
+#FFFEFF
+-->
 
 </html>
