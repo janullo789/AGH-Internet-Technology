@@ -147,9 +147,14 @@ a {
     border-top: 0 solid transparent;
     width: 400px;
     float: left;
+    transition: width 0.5s;
 }
 
-#person:nth-child(even) #number-box{
+#person:hover #number-box {
+    width: 700px;
+}
+
+#person:nth-child(even) #number-box {
     border-bottom: 400px solid #2E393A;
     border-left: 140px solid transparent;
     border-right: 0 solid transparent;
@@ -202,8 +207,9 @@ a {
 }
 
 #person:nth-child(even) #name {
-    left: 350px;
+    left: 345px;
 }
+
 
 .pers-photo {
     position: relative;
@@ -214,8 +220,10 @@ a {
 #person:nth-child(even) .pers-photo {
     left: -450px;
     transform: scale(0.5);
-    top:-350px;
-    left: -380px;
+    top: -200px;
+    left: -290px;
+    position: absolute;
+    transition: left 0.5s;
 }
 
 #person:nth-child(1) .pers-photo {
@@ -227,3 +235,8 @@ a {
     top: -180px;
     left: 370px;
 }
+
+#person:nth-child(even):hover .pers-photo {
+    left: -410px;
+}
+
