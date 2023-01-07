@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/donate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Najlepsi Polacy</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+        <div id="title">
+            <div class="word1">Najlepsi Polacy</div>
+        </div>
+
+    <div class="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+        <span>MENU</span>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Podstrona 1</a></li>
+            <li><a href="#">Podstrona 2</a></li>
+            <li><a href="#">Podstrona 3</a></li>
+            <li><a href="#">Podstrona 4</a></li>
+            <li><a href="#">Podstrona 5</a></li>
+        </ul>
+    </nav>
+
+    <div class="rectangle">
+        
+    </div>
+
+    
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const menuIconDivs = document.querySelectorAll('.menu-icon div');
+        const menuIconSpan = document.querySelector('.menu-icon span');
+        const menu = document.querySelector('.menu');
+
+        menuIcon.addEventListener('click', () => {
+            if (menu.style.display === 'none') {
+                menu.style.display = 'block';
+                menuIconSpan.style.color = '#2e393a';
+                for (const div of menuIconDivs) {
+                    div.style.background = '#ebebeb';
+                }
+                document.querySelector('.header_husaria').classList.add('menu-open');
+                document.querySelector('#title').classList.add('menu-open');
+            } else {
+                menu.style.display = 'none';
+                menuIconSpan.style.color = '#ebebeb';
+                for (const div of menuIconDivs) {
+                    div.style.background = '#2e393a';
+                }
+                document.querySelector('.header_husaria').classList.remove('menu-open');
+                document.querySelector('#title').classList.remove('menu-open');
+            }
+        });
+
+
+
+        </script>
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #FFFEFF;
+    position: relative;
+    height: 550px;
+}
+
+#title {
+    font-weight: 500;
+    font-size: 180px;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
+    color: #ae9b8d;
+    transition: left 0.5s ease-out;
+}
+
+#title.menu-open {
+    left: -5%;
+}
+
+.word1 {
+    animation: slide-in-left 0.5s forwards;
+    transition: transform 1.2s ease-out;
+}
+
+.word2 {
+    animation: slide-in-left 1s forwards;
+    transition: transform 0.2s ease-out;
+    margin-left: 150px;
+    margin-top: -40px;
+    text-shadow: -1px 0 #FFFEFF, 0 1px #FFFEFF, 1px 0 #FFFEFF, 0 -1px #FFFEFF;
+}
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.header_husaria {
+    animation: slide-in-right 1s ease-in-out;
+    padding-left: 200px;
+    margin-top: -80px;
+    left: 0;
+    transition: left 0.5s ease-out;
+    position: relative;
+    z-index: 1;
+}
+
+.header_husaria.menu-open {
+    left: -17%;
+}
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.menu-icon {
+    animation: slide-in-right 0.5s ease-in-out;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.menu-icon div {
+    width: 140px;
+    height: 30px;
+    background-color: #2e393a;
+    margin: 10px 0;
+}
+
+.menu-icon span {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 42px;
+    font-weight: bold;
+    color: #FFFEFF;
+}
+
+.menu {
+    animation: slide-in-right 0.5s ease-in-out;
+    width: 35%;
+    position: absolute;
+    background-color: #2e393a;
+    position: absolute;
+    margin-left: 65%;
+    display: none;
+    text-align: center;
+    height: 550px;
+}
+
+.menu li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFFEFF;
+    margin: 30px 0;
+    font-size: 30px
+}
+
+.menu ul {
+    margin-top: 150px;
+}
+
+
+.rectangle{
+position: absolute;
+width: 1165px;
+height: 534px;
+left: 138px;
+top: 500px;
+
+background: #EB2F1E;
+border-radius: 70px;
+}
