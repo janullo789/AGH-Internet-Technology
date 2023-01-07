@@ -148,6 +148,7 @@ a {
     width: 400px;
     float: left;
     transition: width 0.5s;
+    color: #EBEBEB;
 }
 
 #person:hover #number-box {
@@ -170,7 +171,6 @@ a {
 #number {
     position: absolute;
     font-weight: 600;
-    color: #EBEBEB;
     z-index: 1;
 }
 
@@ -186,6 +186,19 @@ a {
     font-size: 400px;
 }
 
+#info {
+    position: absolute;
+    font-size: 42px;
+    left: 485px;
+    top: 124px;
+    transform: rotate(70.7deg);
+    visibility: hidden;
+}
+
+#person:hover #number-box #info {
+    visibility: visible;
+}
+
 #person:nth-child(even) #number-box #number {
     top: 25px;
     right: -1300px;
@@ -196,6 +209,13 @@ a {
     top: 295px;
     right: -1100px;
     font-size: 40px;
+}
+
+#person:nth-child(even) #number-box #info {
+    left: 994px;
+    top: 124px;
+    transform: rotate(-70.7deg);
+    color: #FFFEFF
 }
 
 #name {
@@ -240,3 +260,18 @@ a {
     left: -410px;
 }
 
+h2 {
+    color: #ae9b8d;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid #ae9b8d;;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h2 span {
+    background: #fff;
+    padding: 0 10px;
+}
