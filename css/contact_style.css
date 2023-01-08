@@ -2,6 +2,7 @@ body {
     background-color: #ebebeb;
 }
 
+
 #title {
     font-weight: 500;
     font-size: 90px;
@@ -125,7 +126,7 @@ body {
     position: absolute;
     width: 970px;
     height: 750px;
-    left: 320px;
+    left: 450px;
     top: 450px;
     
     background: #EB2F1E;
@@ -137,7 +138,7 @@ body {
     position: absolute;
     width: 950px;
     height: 300px;
-    left: 320px; 
+    left: 450px; 
     top: 1300px;
     
     background: #B8A89B;
@@ -228,7 +229,7 @@ body {
     width: 912px;
     height: 0px;
     top: 1800px;
-    left: 320px;
+    left: 450px;
 
     border: 5px solid #AE9B8D;
 }
@@ -258,7 +259,7 @@ color: #2E393A;
 position: absolute;
 width: 353px;
 height: 0px;
-left: 350px;
+left: 480px;
 top: 1951px;
 
 border: 5px solid #AE9B8D;
@@ -309,7 +310,7 @@ color: #2E393A;
 position: absolute;
 width: 353px;
 height: 0px;
-left: 793px;
+left: 930px;
 top: 1951px;
 
 border: 5px solid #AE9B8D;
@@ -360,7 +361,7 @@ border: 5px solid #AE9B8D;
 position: absolute;
 width: 729px;
 height: 0px;
-left: 400px;
+left: 500px;
 top: 2064px;
 
 border: 5px solid #AE9B8D;
@@ -413,7 +414,7 @@ color: #2E393A;
         position: absolute;
         width: 912px;
         height: 422px;
-        left: 320px;
+        left: 450px;
         top: 2121px;
 
         background: #D9D9D9;
@@ -426,7 +427,7 @@ color: #2E393A;
 
     font-family: 'Josefin Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 406;
     font-size: 22px;
     line-height: 40px;
     display: flex;
@@ -434,4 +435,134 @@ color: #2E393A;
     text-align: center;
     
     color: #2E393A;
+    }
+
+
+    .send {
+    position: absolute;
+    width: 290px;
+    height: 120px;
+    left: 750px;
+    top: 2584px;
+    background: #2E393A;
+    }
+
+    .send h{
+        position: absolute;
+        width: 200px;
+        height: 76px;
+        bottom:10px;
+        left:70px;
+    
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #AE9B8D;
+
+    }
+
+    .send:hover {
+        border: 4px solid #EB2F1E;
+    } 
+
+    h5 {
+        position: absolute;
+        width: 915px;
+        height: 83px;
+        left: 560px;
+        top: 2762px;
+
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .email {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 720px;
+        height: 121px;
+        left: 500px;
+        top: 2900px;
+
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 406;
+        font-size: 52px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #2E393A;
+
+        background: #D9D9D9;
+        border: 5px solid #2E393A;
+    }
+
+    .quadrat {
+        position: absolute;
+        width: 120px;
+        height: 122px;
+        left: 1210px;
+        top: 2900px;
+
+        background: #2E393A;
+    }
+
+    h4 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 406;
+        font-size: 52px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin:auto;
+
+        position:absolute;
+        top:50px;
+        left:50px;
+
+        color: #D9D9D9;
+
+    }
+
+    .quadrat:hover {
+        background:#EB2F1E;        
+    }
+
+    h2 {
+        color: #ae9b8d;
+        position: relative;
+        top: 20px;
+        width: 100%;
+        text-align: center;
+        border-top: 3px solid #ae9b8d;;
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+    }
+    
+    h2 span {
+        background: #fff;
+        padding: 0 10px;
+    }
+    
+    .footer {
+        top:3200px;
     }
