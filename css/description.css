@@ -440,13 +440,13 @@ border-radius: 40px;
      
     .l1 {
         position: absolute;
-        top:20px;
-        width: 500px;
+        top:30px;
+        width: 700px;
 
         font-family: 'Josefin Sans';
         font-style: normal;
         font-weight: 500;
-        font-size: 32px;
+        font-size: 28px;
         line-height: 32px;
         display: flex;
         align-items: center;
@@ -457,13 +457,13 @@ border-radius: 40px;
 
     .l2 {
         position: absolute;
-        top:80px;
-        width: 500px;
+        top:90px;
+        width: 700px;
 
         font-family: 'Josefin Sans';
         font-style: normal;
         font-weight: 500;
-        font-size: 32px;
+        font-size: 28px;
         line-height: 32px;
         display: flex;
         align-items: center;
@@ -475,13 +475,13 @@ border-radius: 40px;
 
     .l3 {
         position: absolute;
-        top:140px;
-        width: 500px;
+        top:150px;
+        width: 700px;
     
         font-family: 'Josefin Sans';
         font-style: normal;
         font-weight: 500;
-        font-size: 32px;
+        font-size: 28px;
         line-height: 32px;
         display: flex;
         align-items: center;
