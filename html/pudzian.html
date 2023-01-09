@@ -95,16 +95,106 @@
 
 
     <div class = "rectanglebig">
-        <div class="rectangle_right_1"> </div>
-        <div class="rectangle_left_1"> </div>
+        <h class="quiz"> QUIZ </h>
 
-        <div class="rectangle_right_2"> </div>
-        <div class="rectangle_left_2"> </div>
+        <div class="rectangle_right_1">
+            <h class="a_head">  Odpowiedź </h> 
+                <ul>
 
-        <div class="rectangle_right_3"> </div>
-        <div class="rectangle_left_3"> </div>
+                    <li class="l1">
+                        <input type="radio" name="option1" value="option1">
+                        <label class="label_right"> 5 </label>
+                    </li>
+                    <br>
+                    <li class="l2"> 
+                        <input type="radio" name="option1" value="option2">
+                        <label class="label_right"> 1 </label>
+                    </li>
+                    <br>
+                    <li class="l3">
+                        <input type="radio" name="option1" value="option3">
+                        <label class="label_right"> 3 </label>
+                    </li>
 
-    </div>
+                </ul>
+        </div>
+
+        <div class="rectangle_left_1">
+            <h class="q_head"> Pytanie 1: </h>
+            <h class="q1"> Ile razy Mariusz Pudzianowski zdobył Mistrzostwo Świata Strongman? </h>
+        </div> 
+
+        <div class="rectangle_right_2"><h class="a_head">  Odpowiedź </h> 
+            <ul>
+
+                <li class="l1">
+                    <input type="radio" name="option2" value="option1">
+                    <label class="label_right"> 78 sekund </label>
+                </li>
+                <br>
+                <li class="l2"> 
+                    <input type="radio" name="option2" value="option2">
+                    <label class="label_right"> 15 sekund </label>
+                </li>
+                <br>
+                <li class="l3">
+                    <input type="radio" name="option2" value="option3">
+                    <label class="label_right"> 44 sekundy </label>
+                </li>
+
+            </ul>
+        
+        </div>
+        
+        <div class="rectangle_left_2">
+            <h class="q_head"> Pytanie 2: </h> 
+            <h class="q1"> Ile sekund zajęło Pudzianowskiemu pokonanie Marcina Najmana?</h>
+        </div>
+
+        <div class="rectangle_right_3"> <h class="a_head">  Odpowiedź </h> 
+        
+            <ul>
+
+                <li class="l1">
+                    <input type="radio" name="option3" value="option1">
+                    <label class="label_right"> ziemniaki </label>
+                </li>
+                <br>
+                <li class="l2"> 
+                    <input type="radio" name="option3" value="option2">
+                    <label class="label_right"> jajko </label>
+                </li>
+                <br>
+                <li class="l3">
+                    <input type="radio" name="option3" value="option3">
+                    <label class="label_right"> kamień </label>
+                </li>
+
+            </ul>
+        
+        </div>
+
+        <div class="rectangle_left_3">
+            <h class="q_head"> Pytanie 3: </h>
+            <h class="q1"> Co według Mariusza Pudzianowskiego cierpliwy ugotuje? </h>
+        </div>
+
+
+
+        <button class="result"> <label class="text_button"> SPRAWDŹ </label> </button>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
     
     <script>
         const menuIcon = document.querySelector('.menu-icon');
@@ -131,6 +221,10 @@
                 document.querySelector('#title').classList.remove('menu-open');
             }
         });
+
+
+
+
 
 
         </script>

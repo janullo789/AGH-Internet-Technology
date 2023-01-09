@@ -312,7 +312,7 @@ border-radius: 40px;
     position: absolute;
     width: 635px;
     height: 231px;
-    top:550px;
+    top:575px;
     left:50px;
     
     background: #2E393A;
@@ -324,7 +324,7 @@ border-radius: 40px;
     position: absolute;
     width: 726px;
     height: 231px;
-    top:550px;
+    top:575px;
     left:500px;
     
     background: #AE9B8D;
@@ -352,5 +352,182 @@ border-radius: 40px;
         
         background: #AE9B8D;
         border-radius: 40px;
-        }
+    }
     
+    .quiz {
+        position: absolute;
+        width: 388px;
+        height: 130px;
+        left: 0px;
+        top: 0px;
+
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 128px;
+        line-height: 128px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .q_head {
+        position: absolute;
+        width: 291px;
+        height: 59px;
+        left: 15px;
+        top: 0px;
+
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+
+        color: #AE9B8D;
+    }
+
+    .a_head {
+        position: absolute;
+        width: 291px;
+        height: 59px;
+        left: 500px;
+        top: 0px;
+
+
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+
+        color: #2E393A;
+    }
+
+
+    .q1 {
+        position: absolute;
+        width: 591px;
+        height: 136px;
+        top: 50px;
+        left: 30px;
+
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    
+
+
+    ul {
+
+        position: absolute;
+        left: 150px;
+    }
+     
+    .l1 {
+        position: absolute;
+        top:20px;
+        width: 500px;
+
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .l2 {
+        position: absolute;
+        top:80px;
+        width: 500px;
+
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+
+    .l3 {
+        position: absolute;
+        top:140px;
+        width: 500px;
+    
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+
+
+    .label_right {
+        left: 300px;
+    }
+
+
+.result{
+    top: 1200px;
+    left: 425px;
+
+    position: absolute;
+    width: 450px;
+    height: 125px;
+
+    background: #2E393A;
+    border-radius: 40px;
+}
+
+.result:hover {
+    background:green;
+}
+
+
+.text_button {
+
+    position: absolute;
+    top: 0px;
+    left: 90px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 128px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
