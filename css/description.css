@@ -531,3 +531,26 @@ border-radius: 40px;
     color: #FFFFFF;
 
 }
+
+
+
+h2 {
+    color: #ae9b8d;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid #ae9b8d;;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h2 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.footer {
+    position: relative;
+    top:5100px;
+}
