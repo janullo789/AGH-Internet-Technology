@@ -87,24 +87,26 @@
 
         <div class="rectangle_right_1">
             <h class="a_head">  Odpowiedź </h> 
+            <div class="answer-box"></div>
                 <ul>
 
                     <li class="l1">
-                        <input type="radio" name="option1" value="option1">
-                        <label class="label_right"> 21:37 </label>
+                        <input class="answer" type="radio" id="answer-1" name="option3" value="false">
+                        <label for = "answer-1" class="label_right"> 21:37 </label>
                     </li>
                     <br>
                     <li class="l2"> 
-                        <input type="radio" name="option1" value="option2">
-                        <label class="label_right"> 21:15 </label>
+                        <input class="answer" type="radio" id="answer-1" name="option3" value="false">
+                        <label for = "answer-2" class="label_right"> 21:15 </label>
                     </li>
                     <br>
                     <li class="l3">
-                        <input type="radio" name="option1" value="option3">
-                        <label class="label_right"> 21:45 </label>
+                        <input class="answer" type="radio" id="answer-3" name="option3" value="false">
+                        <label for = "answer-3" class="label_right"> 21:45 </label>
                     </li>
 
                 </ul>
+            </div>
         </div>
 
         <div class="rectangle_left_1">
@@ -113,25 +115,26 @@
         </div> 
 
         <div class="rectangle_right_2"><h class="a_head">  Odpowiedź </h> 
-            <ul>
+            <div class="answer-box"></div>        
+                <ul>
 
-                <li class="l1">
-                    <input type="radio" name="option2" value="option1">
-                    <label class="label_right"> Pojechał do Krakowa na mecz Cracovii</label>
-                </li>
-                <br>
-                <li class="l2"> 
-                    <input type="radio" name="option2" value="option2">
-                    <label class="label_right"> Modlił się w kościele o zdanie matury </label>
-                </li>
-                <br>
-                <li class="l3">
-                    <input type="radio" name="option2" value="option3">
-                    <label class="label_right"> Jadł kremówki z pobliskiej cukierni </label>
-                </li>
+                    <li class="l1">
+                        <input class="answer" type="radio" id="answer-4" name="option3" value="false">
+                        <label for = "answer-4" class="label_right"> Pojechał do Krakowa na mecz Cracovii</label>
+                    </li>
+                    <br>
+                    <li class="l2"> 
+                        <input class="answer" type="radio" id="answer-5" name="option3" value="false">
+                        <label for = "answer-5" class="label_right"> Modlił się w kościele o zdanie matury </label>
+                    </li>
+                    <br>
+                    <li class="l3">
+                        <input class="answer" type="radio" id="answer-6" name="option3" value="true">
+                        <label for = "answer-6" class="label_right"> Jadł kremówki z pobliskiej cukierni </label>
+                    </li>
 
-            </ul>
-        
+                </ul>
+            </div> 
         </div>
         
         <div class="rectangle_left_2">
@@ -140,26 +143,26 @@
         </div>
 
         <div class="rectangle_right_3"> <h class="a_head">  Odpowiedź </h> 
-        
-            <ul>
+            <div class = "answer-box">
+                <ul>
 
-                <li class="l1">
-                    <input type="radio" name="option3" value="option1">
-                    <label class="label_right"> 1978 </label>
-                </li>
-                <br>
-                <li class="l2"> 
-                    <input type="radio" name="option3" value="option2">
-                    <label class="label_right"> 1980 </label>
-                </li>
-                <br>
-                <li class="l3">
-                    <input type="radio" name="option3" value="option3">
-                    <label class="label_right"> 1982 </label>
-                </li>
+                    <li class="l1">
+                        <input class="answer" type="radio" id="answer-7" name="option3" value="true">
+                        <label for = "answer-7" class="label_right"> 1978 </label>
+                    </li>
+                    <br>
+                    <li class="l2"> 
+                        <input class="answer" type="radio" id="answer-8" name="option3" value="false">
+                        <label for = "answer-8" class="label_right"> 1980 </label>
+                    </li>
+                    <br>
+                    <li class="l3">
+                        <input class="answer" type="radio" id="answer-9" name="option3" value="false">
+                        <label for = "answer-9" class="label_right"> 1982 </label>
+                    </li>
 
-            </ul>
-        
+                </ul>
+            </div>
         </div>
 
         <div class="rectangle_left_3">
@@ -170,6 +173,13 @@
 
         <div>
         <button class="result"> <label class="text_button"> SPRAWDŹ </label> </button>
+        </div>
+
+    </form>
+
+        <div class="modal">
+            <p></p>
+            <button class="close-modal"> X</button>
         </div>
 
     </div>

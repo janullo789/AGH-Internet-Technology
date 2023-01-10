@@ -87,97 +87,107 @@
 
 
     <div class = "rectanglebig">
-        <h class="quiz"> QUIZ </h>
+        <form class = "quiz-box">
+            <h class="quiz"> QUIZ </h>
 
-        <div class="rectangle_right_1">
-            <h class="a_head">  Odpowiedź </h> 
-                <ul>
+            <div class="rectangle_right_1">
+                <h class="a_head">  Odpowiedź </h> 
+                    <div class = "answer-box">
+                        <ul>
 
-                    <li class="l1">
-                        <input type="radio" name="option1" value="option1">
-                        <label class="label_right"> 5 </label>
-                    </li>
-                    <br>
-                    <li class="l2"> 
-                        <input type="radio" name="option1" value="option2">
-                        <label class="label_right"> 1 </label>
-                    </li>
-                    <br>
-                    <li class="l3">
-                        <input type="radio" name="option1" value="option3">
-                        <label class="label_right"> 3 </label>
-                    </li>
+                        <li class="l1">
+                            <input class="answer" type="radio" id="answer-1" name="option1" value="true">
+                            <label for = "answer-1" class="label_right"> 5 </label>
+                        </li>
+                        <br>
+                        <li class="l2"> 
+                            <input class="answer" type="radio" id="answer-2" name="option1" value="false">
+                            <label for = "answer-2" class="label_right"> 1 </label>
+                        </li>
+                        <br>
+                        <li class="l3">
+                            <input class="answer" type="radio" id="answer-3" name="option1" value="false">
+                            <label for = "answer-3" class="label_right"> 3 </label>
+                        </li>
 
-                </ul>
-        </div>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="rectangle_left_1">
-            <h class="q_head"> Pytanie 1: </h>
-            <h class="q1"> Ile razy Mariusz Pudzianowski zdobył Mistrzostwo Świata Strongman? </h>
-        </div> 
+            <div class="rectangle_left_1">
+                <h class="q_head"> Pytanie 1: </h>
+                <h class="q1"> Ile razy Mariusz Pudzianowski zdobył Mistrzostwo Świata Strongman? </h>
+            </div> 
 
-        <div class="rectangle_right_2"><h class="a_head">  Odpowiedź </h> 
-            <ul>
+            <div class="rectangle_right_2"><h class="a_head">  Odpowiedź </h> 
+                <div class="answer-box">
+                    <ul>
+                        <li class="l1">
+                            <input class="answer" type="radio" id="answer-4" name="option2" value="false">
+                            <label for = "answer-4" class="label_right"> 78 sekund </label>
+                        </li>
+                        <br>
+                        <li class="l2"> 
+                            <input class="answer" type="radio" id="answer-5" name="option2" value="false">
+                            <label for = "answer-5" class="label_right"> 15 sekund </label>
+                        </li>
+                        <br>
+                        <li class="l3">
+                            <input class="answer" type="radio" id="answer-6" name="option2" value="true">
+                            <label for = "answer-6" class="label_right"> 44 sekundy </label>
+                        </li>
 
-                <li class="l1">
-                    <input type="radio" name="option2" value="option1">
-                    <label class="label_right"> 78 sekund </label>
-                </li>
-                <br>
-                <li class="l2"> 
-                    <input type="radio" name="option2" value="option2">
-                    <label class="label_right"> 15 sekund </label>
-                </li>
-                <br>
-                <li class="l3">
-                    <input type="radio" name="option2" value="option3">
-                    <label class="label_right"> 44 sekundy </label>
-                </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="rectangle_left_2">
+                <h class="q_head"> Pytanie 2: </h> 
+                <h class="q1"> Ile sekund zajęło Pudzianowskiemu pokonanie Marcina Najmana?</h>
+            </div>
 
-            </ul>
+            <div class="rectangle_right_3"> <h class="a_head">  Odpowiedź </h> 
+                <div class = "answer-box">
+                    <ul>
+
+                        <li class="l1">
+                            <input class="answer" type="radio" id="answer-7" name="option3" value="false">
+                            <label for = "answer-7" class="label_right"> ziemniaki </label>
+                        </li>
+                        <br>
+                        <li class="l2"> 
+                            <input class="answer" type="radio" id="answer-8" name="option3" value="false">
+                            <label for = "answer-8" class="label_right"> jajko </label>
+                        </li>
+                        <br>
+                        <li class="l3">
+                            <input class="answer" type="radio" id="answer-9" name="option3" value="true">
+                            <label for = "answer-9" class="label_right"> kamień </label>
+                        </li>
+
+                    </ul>
+                </div>
+            
+            </div>
+
+            <div class="rectangle_left_3">
+                <h class="q_head"> Pytanie 3: </h>
+                <h class="q1"> Co według Mariusza Pudzianowskiego cierpliwy ugotuje? </h>
+            </div>
+
+
+            <div>
+            <button class="submit"> <label class="text_button"> SPRAWDŹ </label> </button>
+            </div>
+
+        </form>
         
-        </div>
-        
-        <div class="rectangle_left_2">
-            <h class="q_head"> Pytanie 2: </h> 
-            <h class="q1"> Ile sekund zajęło Pudzianowskiemu pokonanie Marcina Najmana?</h>
-        </div>
-
-        <div class="rectangle_right_3"> <h class="a_head">  Odpowiedź </h> 
-        
-            <ul>
-
-                <li class="l1">
-                    <input type="radio" name="option3" value="option1">
-                    <label class="label_right"> ziemniaki </label>
-                </li>
-                <br>
-                <li class="l2"> 
-                    <input type="radio" name="option3" value="option2">
-                    <label class="label_right"> jajko </label>
-                </li>
-                <br>
-                <li class="l3">
-                    <input type="radio" name="option3" value="option3">
-                    <label class="label_right"> kamień </label>
-                </li>
-
-            </ul>
-        
-        </div>
-
-        <div class="rectangle_left_3">
-            <h class="q_head"> Pytanie 3: </h>
-            <h class="q1"> Co według Mariusza Pudzianowskiego cierpliwy ugotuje? </h>
-        </div>
-
-
-        <div>
-        <button class="result"> <label class="text_button"> SPRAWDŹ </label> </button>
+        <div class="modal">
+            <p></p>
+            <button class="close-modal"> X</button>
         </div>
 
     </div>
-
 
     <div class="footer">
         <footer>
@@ -187,6 +197,66 @@
 
     
     <script>
+        // QUIZ
+        const quiz = document.querySelector('.quiz-box')
+        const answers = Array.from(document.querySelectorAll('.answer'))
+        const modal = document.querySelector('.modal')
+        const allQuestions = document.querySelectorAll('.q1')
+        
+        const modalInfo = modal.querySelector('p')
+        const modalClose = modal.querySelector('.close-modal')
+
+        const handleQuiz = e => {
+            e.preventDefault();
+
+            const checkedAnswers = answers.filter(answer => answer.checked)
+            const isTrue = checkedAnswers.every(answer => answer.value === "true")
+            const allChecked = checkedAnswers.length === allQuestions.length
+            
+            if(!allChecked){
+                modal.classList.add('modal-active')
+                modalInfo.textContent = 'Wybierz wszystkie odpowiedzi!'
+                return
+            }
+
+
+            checkedAnswers.forEach(answer => 
+            {
+                const checkIfcorrect = answer.value === 'true'
+                const answerBox = answer.closest('.answer-box')
+
+                if(checkIfcorrect){
+                    answerBox.classList.add('correct') 
+                    answerBox.classList.remove('in-correct') 
+                }
+                else {
+                    answerBox.classList.add('in-correct')
+                    answerBox.classList.remove('correct') 
+                }
+            })
+
+
+            if(isTrue && allChecked) {
+                modal.classList.add('modal-active')
+                modalInfo.textContent = 'Gratulacje! Wszystkie odpowiedzi są poprawne'
+            } 
+            else {
+                modal.classList.add('modal-active')
+                modalInfo.textContent = 'Niestety nie wszystkie odpowiedzi są poprawne'
+            }
+        }
+
+
+        const closeModal = () => {
+            modal.classList.remove('modal-active')
+        }
+
+
+        quiz.addEventListener('submit', handleQuiz)
+        modalClose.addEventListener('click', closeModal)
+
+
+        // MENU
         const menuIcon = document.querySelector('.menu-icon');
         const menuIconDivs = document.querySelectorAll('.menu-icon div');
         const menuIconSpan = document.querySelector('.menu-icon span');
