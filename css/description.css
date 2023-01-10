@@ -154,12 +154,22 @@ h1 {
     color: #2E393A;
     }
 
+.sound1_malysz_jp2 {
+    position:absolute;
+    width: 500px;
+    height: 100px;
+    left: 300px;
+    top:1000px;
+}
+
+
+
 .sound1 {
     position:absolute;
     width: 250px;
     height: 100px;
     left: 259px;
-    top:965px;
+    top:1000px;
 }
 
 .sound2 {
@@ -167,7 +177,7 @@ h1 {
     width: 250px;
     height: 100px;
     left: 600px;
-    top:965px;
+    top:1000px;
 }
 
 div .description{
@@ -175,7 +185,7 @@ div .description{
     width: 1277px;
     height: 295px;
     left: 271px;
-    top: 1100px;
+    top: 1200px;
 }
 
 .description {
@@ -184,6 +194,7 @@ div .description{
     font-weight: 400;
     font-size: 22px;
     line-height: 1.9;
+
     
     color: #2E393A;
 }
@@ -358,13 +369,13 @@ border-radius: 40px;
         position: absolute;
         width: 388px;
         height: 130px;
-        left: 0px;
-        top: 0px;
+        left: -13px;
+        top: 7px;
 
         font-family: 'Josefin Sans';
         font-style: normal;
         font-weight: 700;
-        font-size: 128px;
+        font-size: 148px;
         line-height: 128px;
         display: flex;
         align-items: center;
