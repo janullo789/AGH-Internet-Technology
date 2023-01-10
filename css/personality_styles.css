@@ -22,6 +22,8 @@ body {
 .word1 {
     animation: slide-in-left 0.5s forwards;
     transition: transform 1.2s ease-out;
+    text-decoration: none;
+    color: #ae9b8d;
 }
 
 /*
@@ -95,13 +97,19 @@ body {
 }
 
 .menu li,
-a {
+li a {
     list-style: none;
     text-decoration: none;
     color: #ebebeb;
     margin: 30px 0;
     font-size: 30px
 }
+
+li a:hover {
+    color: #EB2F1E;
+    transition-duration: 0.3s;
+}
+
 
 .menu ul {
     margin-top: 150px;
@@ -119,6 +127,7 @@ a {
     text-align: center;
     font-size: 60px;
     color: #2E393A;
+    box-shadow: 2px 2px 5px black;
 }
 
 #test_top {
@@ -142,6 +151,7 @@ a {
     text-align: center;
     font-size: 23px;
     color: #2E393A;
+    box-shadow: 2px 2px 5px black;
 }
 
 .answer-box {
@@ -160,6 +170,7 @@ a {
     font-size: 50px;
     color: #2E393A;
     padding: 1px;
+    box-shadow: 2px 2px 5px black;
 }
 
 .modal h4 {
@@ -181,6 +192,7 @@ a {
     height: 50px;
     border-radius: 8px;
     transition-duration: 0.4s;
+    box-shadow: 2px 2px 5px black;
 }
 
 .check-btn:hover {

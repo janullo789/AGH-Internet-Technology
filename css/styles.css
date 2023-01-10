@@ -104,19 +104,25 @@ header {
     background-color: #2e393a;
     position: absolute;
     margin-left: 65%;
-    display: none;
     text-align: center;
     height: 550px;
+    border-bottom-left-radius: 150px;
 }
 
 .menu li,
-a {
+li a {
     list-style: none;
     text-decoration: none;
     color: #FFFEFF;
     margin: 30px 0;
     font-size: 30px
 }
+
+li a:hover {
+    color: #EB2F1E;
+    transition-duration: 0.3s;
+}
+
 
 .menu ul {
     margin-top: 150px;
@@ -134,6 +140,8 @@ a {
     display: block;
     overflow: hidden;
     position: relative;
+    text-decoration: none;
+    color: #2E393A;
 }
 
 #person:nth-child(even) {

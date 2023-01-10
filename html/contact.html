@@ -9,9 +9,9 @@
 </head>
 
 <body>
-        <div id="title">
-            <div class="word1">Najlepsi Polacy</div>
-        </div>
+    <div id="title">
+        <a href="index.html" class="word1">Najlepsi Polacy</a>
+    </div>
 
     <div class="menu-icon">
         <div></div>
@@ -22,80 +22,118 @@
 
     <nav class="menu">
         <ul>
-            <li><a href="#">Podstrona 1</a></li>
-            <li><a href="#">Podstrona 2</a></li>
-            <li><a href="#">Podstrona 3</a></li>
-            <li><a href="#">Podstrona 4</a></li>
-            <li><a href="#">Podstrona 5</a></li>
+            <li><a href="pudzian.html">Mariusz Pudzianowski</a></li>
+            <li><a href="jp2.html">Jan Paweł II</a></li>
+            <li><a href="malysz.html">Adam Małysz</a></li>
+            <li><a href="personality.html">Test osobowości - sprawdź się!</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
         </ul>
     </nav>
 
 
-    <div class = "rectangle">
-        <div class = "contact"> Dane kontaktowe </div>
-            <img class="skwarek" src="../img/skwarek.jpg">
-            <img class="sawol" src="../img/sawol.jpg">
-        <div class="portfolio" id="portfolio-skwarek"> 
-            <p> Imię: <span>    JAN</span></p>
-            <p> Nazwisko: <span>    SKWARCZEŃSKI</span></p>
-            <p> E-mail: <span>  SKWARKO@STUDENT.AGH.EDU.PL</span></p>
-            <p> Ulubiony Polak: <span>  MARIUSZ PUDZIANOWSKI</span></p>
+    <div class="rectangle">
+        <div class="contact"> Dane kontaktowe </div>
+        <img class="skwarek" src="../img/skwarek.jpg">
+        <img class="sawol" src="../img/sawol.jpg">
+        <div class="portfolio" id="portfolio-skwarek">
+            <p> Imię: <span> JAN</span></p>
+            <p> Nazwisko: <span> SKWARCZEŃSKI</span></p>
+            <p> E-mail: <span> SKWARKO@STUDENT.AGH.EDU.PL</span></p>
+            <p> Ulubiony Polak: <span> MARIUSZ PUDZIANOWSKI</span></p>
         </div>
 
         <div class="portfolio" id="portfolio-sawol">
-            <p> Imię: <span>    MICHAŁ</span></p>
-            <p> Nazwisko: <span>    SAWICKI</span></p>
-            <p> E-mail: <span>  MSAWICKI@STUDENT.AGH.EDU.PL</span></p>
-            <p> Ulubiony Polak: <span>  ADAM MAŁYSZ</span></p>
+            <p> Imię: <span> MICHAŁ</span></p>
+            <p> Nazwisko: <span> SAWICKI</span></p>
+            <p> E-mail: <span> MSAWICKI@STUDENT.AGH.EDU.PL</span></p>
+            <p> Ulubiony Polak: <span> ADAM MAŁYSZ</span></p>
         </div>
     </div>
 
 
     <div class="rectangle2">
-        <div class = "donate">
-            <a href="../html/donate.html"> Wesprzyj nas! </a>
-        </div>
+        <button class="donate">Wesprzyj nas!</button>
+    </div>
+
+    <div class="pop">
+        <p>Wybierz kwotę:</p>
+        <input type="radio" name="kwota" id="answer-1" class="answer" value="5">
+        <label for="answer-1">5 zł</label>
+        <input type="radio" name="kwota" id="answer-2" class="answer" value="10">
+        <label for="answer-2">10 zł</label>
+        <input type="radio" name="kwota" id="answer-3" class="answer" value="20">
+        <label for="answer-3">20 zł</label>
+        <input type="radio" name="kwota" id="answer-4" class="answer" value="50">
+        <label for="answer-4">50 zł</label>
+        <input type="radio" name="kwota" id="answer-5" class="answer" value="100">
+        <label for="answer-5">100 zł</label>
+
+       <br>
+        <button type="submit" class="check-btn">Wyślij!</button>
     </div>
 
 
-    <div class = "line1"> <h1> Formularz kontaktowy </h1> </div>
+    <div class="line1">
+        <h1> Formularz kontaktowy </h1>
+    </div>
 
-    <div class = "line2"> <h1> Imię i nazwisko </h1>
-        <input type = "text" placeholder="Wpisz swoje imię i nazwisko">
+    <div class="line2">
+        <h1> Imię i nazwisko </h1>
+        <input type="text" placeholder="Wpisz swoje imię i nazwisko">
     </div>
-    <div class = "line3"> <h1> E-mail </h1>
-        <input type = "text" placeholder="Wpisz swój adres e-mail">
-     </div>
-    <div class = "line4"> <h1> Tytuł wiadomości </h1>
-        <input type = "text" placeholder="Wpisz tytuł swojej wiadmości">
+    <div class="line3">
+        <h1> E-mail </h1>
+        <input type="text" placeholder="Wpisz swój adres e-mail">
     </div>
-    
-    <div class="message"> 
-        <input type = "text" placeholder="Wpisz tutaj swoją wiadmość">
+    <div class="line4">
+        <h1> Tytuł wiadomości </h1>
+        <input type="text" placeholder="Wpisz tytuł swojej wiadmości">
+    </div>
+
+    <div class="message">
+        <input type="text" placeholder="Wpisz tutaj swoją wiadmość">
     </div>
 
     <div>
-        <button class="send"> <h>WYŚLIJ</h> </button>
+        <button class="send">
+            <h>WYŚLIJ</h>
+        </button>
     </div>
 
     <h5> Zapisz się do newslettera, aby śledzić nowości</h5>
 
     <div>
         <input class="email" type="text" placeholder="E-mail">
-        <div class="quadrat"> <h4> > </h4> </div>
+        <div class="quadrat">
+            <h4> > </h4>
+        </div>
     </div>
 
     <div class="footer">
         <footer>
-                <h2><span>SUBJEKTYWNY RANKING NAJLEPSZYCH POLAKÓW © WSZELKIE PRAWA ZASTRZEŻONE</span></h2>
+            <h2><span>SUBIEKTYWNY RANKING NAJLEPSZYCH POLAKÓW © WSZELKIE PRAWA ZASTRZEŻONE</span></h2>
         </footer>
     </div>
 
     <script>
+        const donate = document.querySelector(".donate");
+        const pop = document.querySelector(".pop");
+        const send = document.querySelector(".check-btn");
+
+        donate.addEventListener("click", function() {
+            pop.style.display = "block";
+        });
+        
+        pop.addEventListener("click", function() {
+            pop.style.display = "none";
+        })
+
+
         const menuIcon = document.querySelector('.menu-icon');
         const menuIconDivs = document.querySelectorAll('.menu-icon div');
         const menuIconSpan = document.querySelector('.menu-icon span');
         const menu = document.querySelector('.menu');
+        menu.style.display = 'none'
 
         menuIcon.addEventListener('click', () => {
             if (menu.style.display === 'none') {
@@ -117,8 +155,7 @@
             }
         });
 
-
-        </script>
+    </script>
 
 </body>
 
