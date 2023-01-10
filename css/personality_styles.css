@@ -59,7 +59,7 @@ body {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     right: 15px;
 }
@@ -90,6 +90,8 @@ body {
     display: none;
     text-align: center;
     height: 550px;
+    z-index: 1;
+    border-bottom-left-radius: 150px;
 }
 
 .menu li,
@@ -125,4 +127,84 @@ a {
     font-weight: 600;
     text-shadow: -2px -2px 0 #ebebeb, 2px -2px 0 #ebebeb, -2px 2px 0 #ebebeb, 2px 2px 0 #ebebeb;
     color: #EB2F1E;
+}
+
+.quiz-box {
+    position: relative;
+    width: 1100px;
+    height: auto;
+    background-color: #AE9B8D;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 350px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 23px;
+    color: #2E393A;
+}
+
+.answer-box {
+    margin: 50px;
+}
+
+.modal {
+    position: relative;
+    width: 900px;
+    height: 150px;
+    background-color: #EB2F1E;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: #2E393A;
+    padding: 1px;
+}
+
+.modal h4 {
+    position: absolute;
+    top: -92px;
+    left: 40px;
+    font-weight: 600;
+    text-shadow: -2px -2px 0 #AE9B8D, 2px -2px 0 #AE9B8D, -2px 2px 0 #AE9B8D, 2px 2px 0 #AE9B8D;
+    color: #EB2F1E;
+    font-size: 45px;
+}
+
+.check-btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    background-color: #ebebeb;
+    margin: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.check-btn:hover {
+    background-color: #EB2F1E;
+}
+
+h2 {
+    color: #ae9b8d;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid #ae9b8d;
+    ;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h2 span {
+    background: #ebebeb;
+    padding: 0 10px;
+}
+
+.footer {
+    position: relative;
+    top: 400px;
 }

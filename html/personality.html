@@ -30,13 +30,138 @@
             <li><a href="#">Podstrona 5</a></li>
         </ul>
     </nav>
-    
+
     <div id="test_header">
         <div id="test_top">TEST OSOBOWOŚCI</div>
         <div id="test_inside">Jakim Polakiem jesteś?</div>
     </div>
-        
+
+    <form class="quiz-box">
+        <div class="answer-box">
+            <h3 class="question">Co robisz w chwilach wolnych?</h3>
+            <input type="radio" name="question-1" id="answer-1" class="answer" value="malysz">
+            <label for="answer-1">Jeżdżę na nartach</label>
+            <input type="radio" name="question-1" id="answer-2" class="answer" value="pudzian">
+            <label for="answer-2">Podnoszę samochody</label>
+            <input type="radio" name="question-1" id="answer-3" class="answer" value="papiez">
+            <label for="answer-3">Modlę się</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Ulubiona przekąska</h3>
+            <input type="radio" name="question-2" id="answer-4" class="answer" value="papiez">
+            <label for="answer-4">Kremówka</label>
+            <input type="radio" name="question-2" id="answer-5" class="answer" value="pudzian">
+            <label for="answer-5">Mielony, ziemniaczki i mizeria</label>
+            <input type="radio" name="question-2" id="answer-6" class="answer" value="malysz">
+            <label for="answer-6">Bułka z banannem</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Gdzie najchętniej pojechałbyś na wakacje?</h3>
+            <input type="radio" name="question-3" id="answer-7" class="answer" value="papiez">
+            <label for="answer-7">Wadowice</label>
+            <input type="radio" name="question-3" id="answer-8" class="answer" value="malysz">
+            <label for="answer-8">Wisła</label>
+            <input type="radio" name="question-3" id="answer-9" class="answer" value="pudzian">
+            <label for="answer-9">Biała Rawska</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Co chcesz robić na starość?</h3>
+            <input type="radio" name="question-4" id="answer-10" class="answer" value="malysz">
+            <label for="answer-10">Jeździć w rajdach Dakar</label>
+            <input type="radio" name="question-4" id="answer-11" class="answer" value="papiez">
+            <label for="answer-11">Chodzić na pielgrzymki</label>
+            <input type="radio" name="question-4" id="answer-12" class="answer" value="pudzian">
+            <label for="answer-12">Zawalczyć na ringu</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Twój wymarzony samochód:</h3>
+            <input type="radio" name="question-5" id="answer-13" class="answer" value="pudzian">
+            <label for="answer-13">Lamborghini w gazie</label>
+            <input type="radio" name="question-5" id="answer-14" class="answer" value="papiez">
+            <label for="answer-14">Papamobil</label>
+            <input type="radio" name="question-6" id="answer-15" class="answer" value="malysz">
+            <label for="answer-15">Audi S8</label>
+        </div>
+
+        <button type="submit" class="check-btn">Sprawdź!</button>
+
+        <div class="modal">
+            <h4>Wynik</h4>
+            <p></p>
+        </div>
+    </form>
+    
+    <div class="footer">
+        <footer>
+                <h2><span>SUBIEKTYWNY RANKING NAJLEPSZYCH POLAKÓW © WSZELKIE PRAWA ZASTRZEŻONE</span></h2>
+        </footer>
+    </div>
+
     <script>
+        const form = document.querySelector('.quiz-box')
+        const answers = Array.from(document.querySelectorAll('.answer'))
+        const allQuestions = document.querySelectorAll('.question')
+        const modal = document.querySelector('.modal')
+        const modalInfo = modal.querySelector('p')
+        const modalBtn = modal.querySelector('.close-modal')
+
+        const handleQuiz = e => {
+            e.preventDefault();
+
+            const checkedAnswers = answers.filter(answer => answer.checked)
+            const allChecked = checkedAnswers.length === allQuestions.length
+
+            const isPapiez = checkedAnswers.every(answer => answer.value === "papiez")
+            const isPudzian = checkedAnswers.every(answer => answer.value === "pudzian")
+            const isMalysz = checkedAnswers.every(answer => answer.value === "malysz")
+
+            let papiez = 0;
+            let pudzian = 0;
+            let malysz = 0;
+
+            if (!allChecked) {
+                modal.classList.add('modal-active')
+                modalInfo.textContent = 'Wybierz wszystkie odpowiedzi!'
+                return
+            }
+
+            for (let i = 0; i < checkedAnswers.length; i++) {
+                if (checkedAnswers[i].value === "papiez") {
+                    papiez++;
+                } else if (checkedAnswers[i].value === "pudzian") {
+                    pudzian++;
+                } else {
+                    malysz++;
+                }
+            }
+
+            let max = papiez;
+            let ans = "Papież";
+
+            if (pudzian > max) {
+                max = pudzian;
+                ans = "Pudzian";
+            }
+
+            if (malysz > max) {
+                max = malysz;
+                ans = "Małysz"
+            }
+
+            if (allChecked) {
+                modal.classList.add('modal-active')
+                modalInfo.textContent = "Jesteś jak " + ans
+            }
+        }
+
+        form.addEventListener('submit', handleQuiz)
+
+
+
         const menuIcon = document.querySelector('.menu-icon');
         const menuIconDivs = document.querySelectorAll('.menu-icon div');
         const menuIconSpan = document.querySelector('.menu-icon span');
@@ -62,8 +187,7 @@
             }
         });
 
-
-        </script>
+    </script>
 
 </body>
 
