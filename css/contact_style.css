@@ -1,5 +1,6 @@
 body {
     background-color: #ebebeb;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -91,7 +92,8 @@ body {
     height: 550px;
 }
 
-.menu li, a {
+.menu li,
+a {
     list-style: none;
     text-decoration: none;
     color: #ebebeb;
@@ -99,17 +101,15 @@ body {
     font-size: 30px
 }
 
-.menu ul
-{
+.menu ul {
     margin-top: 150px;
 }
 
-.contact
-{
+.contact {
     position: absolute;
     left: 120px;
     top: 0px;
-    
+
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -118,39 +118,37 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: white;
 }
 
-.rectangle{
+.rectangle {
     position: absolute;
     width: 970px;
     height: 750px;
     left: 450px;
     top: 450px;
-    
+
     background: #EB2F1E;
     border-radius: 80px;
 }
 
-.rectangle2
-{
+.rectangle2 {
     position: absolute;
     width: 950px;
     height: 300px;
-    left: 450px; 
+    left: 450px;
     top: 1300px;
-    
+
     background: #B8A89B;
     border-radius: 60px;
 }
 
-.donate a
-{
+.donate a {
     position: absolute;
     height: 275px;
     left: 160px;
-    
+
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -163,59 +161,57 @@ body {
     color: #2E393A;
 }
 
-.donate a:hover{
-    color:#EB2F1E;
-    text-decoration:underline;
+.donate a:hover {
+    color: #EB2F1E;
+    text-decoration: underline;
 }
 
 
 
-.skwarek
-{
+.skwarek {
     width: 250px;
     height: 250px;
-    
-    position:absolute;
-    top:150px;
-    left:100px;
+
+    position: absolute;
+    top: 150px;
+    left: 100px;
     border: 2px white solid;
 }
 
-.sawol
-{
+.sawol {
     width: 250px;
     height: 250px;
-    
-    position:absolute;
-    top:150px;
-    right:100px;
+
+    position: absolute;
+    top: 150px;
+    right: 100px;
     border: 2px white solid;
 
 }
 
-.portfolio
-{
-    color:#ebebeb;
+.portfolio {
+    color: #ebebeb;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
 }
 
-#portfolio-skwarek{
-    position:absolute;
-    top:450px;
-    left:75px;
+#portfolio-skwarek {
+    position: absolute;
+    top: 450px;
+    left: 75px;
 }
-#portfolio-sawol{
-    position:absolute;
-    top:450px;
-    right:25px;
+
+#portfolio-sawol {
+    position: absolute;
+    top: 450px;
+    right: 25px;
 }
 
 
-.portfolio span{
-    color:#2E393A;
+.portfolio span {
+    color: #2E393A;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -234,95 +230,44 @@ body {
     border: 5px solid #AE9B8D;
 }
 
-.line1 h1{
-position: absolute;
-width: 729px;
-height: 95px;
-left: 185px;
-bottom: 0px;
-margin: auto;
+.line1 h1 {
+    position: absolute;
+    width: 729px;
+    height: 95px;
+    left: 185px;
+    bottom: 0px;
+    margin: auto;
 
-font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 70px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #2E393A;
+    color: #2E393A;
 }
 
 
-.line2{
-position: absolute;
-width: 353px;
-height: 0px;
-left: 480px;
-top: 1951px;
+.line2 {
+    position: absolute;
+    width: 353px;
+    height: 0px;
+    left: 480px;
+    top: 1951px;
 
-border: 5px solid #AE9B8D;
+    border: 5px solid #AE9B8D;
 }
 
-.line2 h1{
-position: absolute;
-width: 353px;
-height: 59px;
-left: 105px;
-bottom: 20px;
-
-font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 40px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #2E393A;
-}
-
-.line2 input {
-position: absolute;
-width: 300px;
-height: 30px;
-left: 26px;
-bottom: 10px;
-margin: auto;
-
-
-font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 40px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #2E393A;
-}
-
-
-.line3{
-position: absolute;
-width: 353px;
-height: 0px;
-left: 930px;
-top: 1951px;
-
-border: 5px solid #AE9B8D;
-}
-
-.line3 h1{
+.line2 h1 {
     position: absolute;
     width: 353px;
     height: 59px;
-    left: 125px;
+    left: 105px;
     bottom: 20px;
-    
+
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -331,7 +276,58 @@ border: 5px solid #AE9B8D;
     display: flex;
     align-items: center;
     text-align: center;
-    
+
+    color: #2E393A;
+}
+
+.line2 input {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 26px;
+    bottom: 10px;
+    margin: auto;
+
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #2E393A;
+}
+
+
+.line3 {
+    position: absolute;
+    width: 353px;
+    height: 0px;
+    left: 930px;
+    top: 1951px;
+
+    border: 5px solid #AE9B8D;
+}
+
+.line3 h1 {
+    position: absolute;
+    width: 353px;
+    height: 59px;
+    left: 125px;
+    bottom: 20px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
     color: #2E393A;
 }
 
@@ -342,8 +338,8 @@ border: 5px solid #AE9B8D;
     left: 25px;
     bottom: 10px;
     margin: auto;
-    
-    
+
+
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -352,39 +348,39 @@ border: 5px solid #AE9B8D;
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #2E393A;
-    }
+}
 
 
 .line4 {
-position: absolute;
-width: 729px;
-height: 0px;
-left: 500px;
-top: 2064px;
+    position: absolute;
+    width: 729px;
+    height: 0px;
+    left: 500px;
+    top: 2064px;
 
-border: 5px solid #AE9B8D;
+    border: 5px solid #AE9B8D;
 }
 
 .line4 h1 {
-position: absolute;
-width: 729px;
-height: 95px;
-left: 280px;
-bottom: 20px;
-margin: auto;
+    position: absolute;
+    width: 729px;
+    height: 95px;
+    left: 280px;
+    bottom: 20px;
+    margin: auto;
 
-font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 70px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #2E393A;
+    color: #2E393A;
 }
 
 .line4 input {
@@ -394,8 +390,8 @@ color: #2E393A;
     left: 70px;
     bottom: 10px;
     margin: auto;
-    
-    
+
+
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -404,25 +400,26 @@ color: #2E393A;
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #2E393A;
-    }
+}
 
-    .message{
-        box-sizing: border-box;
+.message {
+    box-sizing: border-box;
 
-        position: absolute;
-        width: 912px;
-        height: 422px;
-        left: 450px;
-        top: 2121px;
+    position: absolute;
+    width: 912px;
+    height: 422px;
+    left: 450px;
+    top: 2121px;
 
-        background: #D9D9D9;
-        border: 5px solid #AE9B8D;
-    }
-    .message input{
-        width: 912px;
-        height: 422px;
+    background: #D9D9D9;
+    border: 5px solid #AE9B8D;
+}
+
+.message input {
+    width: 912px;
+    height: 422px;
     scale: 80%;
 
     font-family: 'Josefin Sans';
@@ -433,135 +430,138 @@ color: #2E393A;
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #2E393A;
-    }
+}
 
 
-    .send {
+.send {
     position: absolute;
     width: 290px;
     height: 120px;
     left: 750px;
     top: 2584px;
     background: #2E393A;
-    }
+}
 
-    .send h{
-        position: absolute;
-        width: 200px;
-        height: 76px;
-        bottom:10px;
-        left:70px;
-    
-        font-family: 'Josefin Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 40px;
-        display: flex;
-        align-items: center;
-        text-align: center;
+.send h {
+    position: absolute;
+    width: 200px;
+    height: 76px;
+    bottom: 10px;
+    left: 70px;
 
-        color: #AE9B8D;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-    }
+    color: #AE9B8D;
 
-    .send:hover {
-        border: 4px solid #EB2F1E;
-    } 
+}
 
-    h5 {
-        position: absolute;
-        width: 915px;
-        height: 83px;
-        left: 560px;
-        top: 2762px;
+.send:hover {
+    border: 4px solid #EB2F1E;
+}
 
-        font-family: 'Josefin Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 32px;
-        display: flex;
-        align-items: center;
-        text-align: center;
+h5 {
+    position: absolute;
+    width: 915px;
+    height: 83px;
+    left: 560px;
+    top: 2762px;
 
-        color: #000000;
-    }
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-    .email {
-        box-sizing: border-box;
+    color: #000000;
+}
 
-        position: absolute;
-        width: 720px;
-        height: 121px;
-        left: 500px;
-        top: 2900px;
+.email {
+    box-sizing: border-box;
 
-        font-family: 'Josefin Sans';
-        font-style: normal;
-        font-weight: 406;
-        font-size: 52px;
-        line-height: 40px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        
-        color: #2E393A;
+    position: absolute;
+    width: 720px;
+    height: 121px;
+    left: 500px;
+    top: 2900px;
 
-        background: #D9D9D9;
-        border: 5px solid #2E393A;
-    }
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 406;
+    font-size: 52px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-    .quadrat {
-        position: absolute;
-        width: 120px;
-        height: 122px;
-        left: 1210px;
-        top: 2900px;
+    color: #2E393A;
 
-        background: #2E393A;
-    }
+    background: #D9D9D9;
+    border: 5px solid #2E393A;
+}
 
-    h4 {
-        font-family: 'Josefin Sans';
-        font-style: normal;
-        font-weight: 406;
-        font-size: 52px;
-        line-height: 40px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        margin:auto;
+.quadrat {
+    position: absolute;
+    width: 120px;
+    height: 122px;
+    left: 1210px;
+    top: 2900px;
 
-        position:absolute;
-        top:50px;
-        left:50px;
+    background: #2E393A;
+}
 
-        color: #D9D9D9;
-    }
+h4 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 406;
+    font-size: 52px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
 
-    .quadrat:hover {
-        background:#EB2F1E;        
-    }
+    position: absolute;
+    top: 50px;
+    left: 50px;
 
-    h2 {
-        color: #ae9b8d;
-        position: relative;
-        top: 20px;
-        width: 100%;
-        text-align: center;
-        border-top: 3px solid #ae9b8d;;
-        line-height: 0.1em;
-        margin: 10px 0 20px;
-    }
-    
-    h2 span {
-        background: #fff;
-        padding: 0 10px;
-    }
-    
-    .footer {
-        top:3200px;
-    }
+    color: #D9D9D9;
+
+}
+
+.quadrat:hover {
+    background: #EB2F1E;
+}
+
+h2 {
+    color: #ae9b8d;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid #ae9b8d;
+    ;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h2 span {
+    background: #ebebeb;
+    padding: 0 10px;
+}
+
+.footer {
+    position: relative;
+    top: 3200px;
+}
