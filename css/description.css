@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content:center;
     align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -15,6 +16,7 @@ body {
     left: 0;
     transition: left 0.5s ease-out;
     position: absolute;
+    top: 10px;
 }
 
 #title.menu-open {
@@ -24,6 +26,9 @@ body {
 .word1 {
     animation: slide-in-left 0.5s forwards;
     transition: transform 1.2s ease-out;
+    text-decoration: none;
+    color: #ae9b8d;
+    font-size: 90px;
 }
 
 /*
@@ -64,6 +69,7 @@ body {
     z-index: 1;
     position: absolute;
     right: 15px;
+    top: 10px;
 }
 
 .menu-icon div {
@@ -92,6 +98,13 @@ body {
     display: none;
     text-align: center;
     height: 550px;
+    top: 10px;
+    border-bottom-left-radius: 150px;
+}
+
+li a:hover {
+    color: #EB2F1E;
+    transition-duration: 0.3s;
 }
 
 .menu li, a {
@@ -576,6 +589,16 @@ border-radius: 40px;
 
     background: #2E393A;
     border-radius: 40px;
+    position: absolute;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 128px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .submit:hover {
@@ -583,23 +606,7 @@ border-radius: 40px;
 }
 
 
-.text_button {
 
-    position: absolute;
-    top: 0px;
-    left: 90px;
-
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 128px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-
-}
 
 h2 {
     color: #ae9b8d;
